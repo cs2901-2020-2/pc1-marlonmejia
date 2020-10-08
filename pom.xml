@@ -14,7 +14,7 @@
         <sonar.projectKey>cs2901-2020-2_pc1-marlonmejia</sonar.projectKey>
         <sonar.organization>cs2901-2020-2</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.login>7472e970baf1e3fd659142bd97e92247973a7aa6</sonar.login>
+        <sonar.login>f3360e31adab79651fb8e065bf9b6f74234f1e93</sonar.login>
     </properties>
 
     <dependencies>

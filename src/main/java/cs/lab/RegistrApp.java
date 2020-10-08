@@ -14,10 +14,12 @@ public class RegistrApp{
         }
         return validate;
     }
-    public void validate(String titled,String linkd) {
+    public boolean validate(String titled,String linkd) {
+        boolean validate;
         title=titled;
         link=linkd;
-        report(validatedescription(title),validatelink(link));
+        validate=(validatedescription(title)&&validatelink(link));
+        return validate;
     }
     public boolean validatedescription(String title){
         boolean validate=true;

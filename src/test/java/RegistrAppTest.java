@@ -16,9 +16,9 @@ public class RegistrAppTest {
         long starttime=System.currentTimeMillis();
         RegistrApp registerUser=new RegistrApp();
         registerUser.nameuser("Manuel Prado");
-        registerUser.validate("2020-II CS2101 ES Teoría de la Computación, 1, Semana03, Juan Gutierrez,09/23 14:00-16:00 Laboratorio","https://utec.zoom.us/rec/share/2312312"
+        registerUser.validate("2020-II CS2101 ES Teoría de la Computación, 1, Semana03, Juan Gutierrez,09/23 14:00-16:00 Laboratorio","https://utec.zoom.us/rec/share/2312312");
         long endtiem=System.currentTimeMillis();
-        Assert.assertTrue((endtiem-starttime)<1000000);
+        Assert.assertTrue((endtiem-starttime)<500);
 
 
     }
